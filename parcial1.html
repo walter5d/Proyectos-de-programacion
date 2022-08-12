@@ -1,0 +1,73 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <title>Html 5 y CSS Examen parcial 1</title>
+<LINK href="Dise.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+       <header class="estilo_bloque">
+           <img class="img-circulo" src="Imagenes/Foto3_foto_perfil.jpg">
+           <p>Armando Cardona Paiz</p>
+           <nav> <!-- Menu tipo Navegador -->
+            <p id="links">
+              <a href="contenido_compuesto.html">Inicio</a> |
+              <a href="estructura_basica.html">Php</a> |
+              <a href="contenido_simple.html">.Net</a> |
+              <a href="tablas.html">Java</a> |
+              <a href="imagenes/estructura_basica.pdf" target="_blank">Manual</a> |
+            </p>
+          </nav>
+          <hr width="100%" color="green" > <!--Linea Horizontal -->
+      
+       </header>
+       <div class="estilo_bloque">
+        <h2> Lenguaje de Programacion</h2>
+        <ol type="1" start="1"> <!-- LISTA ORDENADA  -->
+            <li>Paginas Web</li>
+              <lu id="centro" Style = "list-style-image: url(Imagenes/codigo.png);">
+                  <li > Jsp </li>
+                  <li> Aspx </li>
+                  <li> Php </li>
+              </lu>      
+            <li>Aplicaciones</li>
+            <lu id="centro" Style = "list-style-image: url(Imagenes/desarrollo-web.png);">
+                <li> Java          </li>
+                <li> Visual Basic  </li>
+                <li> C#            </li>
+              </lu>  
+            
+  </ol>
+  
+       </div>
+       <div class="estilo_bloque">
+           <table>
+               <tr><td colspan="2">Programacion Web</td></tr>
+               <tr><td>Asp</td><td>Jsp</td></tr>
+               <tr><td>Php</td><td>Ruby</td></tr>
+               <tr><td>Python</td><td>Go</td></tr>
+           </table>
+       </div>
+       <div class="estilo_bloque">
+            <form>
+      <input  id=" nombre" type="text" name="txt_nombres" placeholder="Ingrese Nombres" required>
+      <input  id=" apellido" type="text" name="txt_apellidos" placeholder="Ingrese Apellidos" required>
+      <input id=" telefono" type="number" name="txt_telefono" placeholder="Ingrese Numero Telefonico" required>
+      <input id=" correo" type="email" name="txt_correo" placeholder="Ingrese Correo Electronico" required>
+      <input id=" dato " type="date" name="txt_fn" placeholder="Ingrese Fecha Nacimiento" required>
+      <textarea id="texto" name="txt_mensaje" placeholder="Ingrese el Mensaje"></textarea>
+    <input id="boton"type="submit" class="boton" onclick="resultado()">    
+    
+    </form>
+    <h3 id="respuesta" class="text-center fw-light">  </h3> 
+       </div>
+       <div class="estilo_bloque" id="redes_sociales" >
+        <h3>Redes Sociales</h3>
+        <a href="#"><img src="Imagenes/Imagen2_facebook.png"></a>
+        <a href="#"><img src="Imagenes/Foto4_twitter.png"></a>
+       </div>
+    </body>
+    <footer>
+            <p  align=center> Aprende a Programar Fácil y Rápido & copy;</p>
+    </footer>
+</html>
